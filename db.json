@@ -1,22 +1,32 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Your own server",
-            "request": "launch",
-            "type": "al",
-            "environmentType": "OnPrem",
-            "server": "http://xxx.xxx.xxx/",
-            "serverInstance": "BC210",
-            "authentication": "Windows",
-            "startupObjectId": 36,
-            "startupObjectType": "Page",
-            "breakOnError": "All",
-            "launchBrowser": true,
-            "enableLongRunningSqlStatements": true,
-            "enableSqlInformationDebugger": true,
-            "tenant": "default",
-            "usePublicURLFromServer": true
-        }
-    ]
+  "id": "xxxxxxx",
+  "name": "NCCTestProject1",
+  "publisher": "xxxxx a.s.",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+  "features": [
+    "NoImplicitWith"
+  ]
 }
